@@ -1,0 +1,8 @@
+name: Unzipper
+version: 1.0.0
+main: dev.unzipper.UnzipperPlugin
+description: Extracts ZIP archives into the server root.
+commands:
+  unzip:
+    description: Extract a ZIP archive from the server root.
+    usage: /unzip <file>
